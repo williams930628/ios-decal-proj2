@@ -15,6 +15,7 @@
 		3A2BBF6D1BCDDDA900B23285 /* HangmanWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BBF6C1BCDDDA900B23285 /* HangmanWords.swift */; settings = {ASSET_TAGS = (); }; };
 		3A2BBF6F1BCDDEBB00B23285 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BBF6E1BCDDEBB00B23285 /* words.plist */; settings = {ASSET_TAGS = (); }; };
 		3A2BBF731BCDE37800B23285 /* Hangman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BBF721BCDE37800B23285 /* Hangman.swift */; settings = {ASSET_TAGS = (); }; };
+		CE30EDA01BDEDB760053153D /* basic-hangman-img in Resources */ = {isa = PBXBuildFile; fileRef = CE30ED9F1BDEDB760053153D /* basic-hangman-img */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3A2BBF6C1BCDDDA900B23285 /* HangmanWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanWords.swift; sourceTree = "<group>"; };
 		3A2BBF6E1BCDDEBB00B23285 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		3A2BBF721BCDE37800B23285 /* Hangman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hangman.swift; sourceTree = "<group>"; };
+		CE30ED9F1BDEDB760053153D /* basic-hangman-img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "basic-hangman-img"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				3A2BBF5B1BCDDAC200B23285 /* HangmanViewController.swift */,
+				CE30ED9F1BDEDB760053153D /* basic-hangman-img */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE30EDA01BDEDB760053153D /* basic-hangman-img in Resources */,
 				3A2BBF6F1BCDDEBB00B23285 /* words.plist in Resources */,
 				3A2BBF641BCDDAC200B23285 /* LaunchScreen.storyboard in Resources */,
 				3A2BBF611BCDDAC200B23285 /* Assets.xcassets in Resources */,
